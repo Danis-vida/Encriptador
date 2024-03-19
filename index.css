@@ -1,0 +1,142 @@
+body{
+    background-color: #f3f5fc;
+}
+
+#logo{
+    margin: 20px;
+    margin-bottom: 0%;
+    margin-left: 13%;
+    width: 100px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.message{
+    margin-left: 15%;
+    display:flex;
+}
+
+.derecha{
+    margin-top: 20px;
+}
+
+.ingresa-valor{
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 300px;
+    padding-bottom: 300px;
+    background-color: white;
+}
+
+.buttons{
+    margin-top: 2%;
+    display: flex;
+}
+
+#imagen-info{
+    margin-left: 100px;
+}
+
+#letras-chicas{
+    
+}
+
+.buttons button{
+    /*align-content: center;*/
+    /*position:relative;*/
+    margin: 0 0 0 20%;
+    width: 30%;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#button-E{
+    background-color: #72a5ae;
+    border: 2px solid #72a5ae;
+}
+
+#button-E:active{
+    background-color:#08788c;
+}
+
+#button-D{
+    background-color: #8e3f65;
+    border: 2px solid #72a5ae;
+}
+
+#button-D:active{
+    background-color:#72a5ae;
+}
+
+a{
+    text-decoration: solid;
+    color: #000000;
+    margin: 20px;
+}
+
+.resultado{
+    width: 200px; 
+    height: 225px; 
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.muneco{
+    margin-left: 20px;
+    width: 200px;
+    height: auto;
+}
+
+#vacio{
+    text-align: center;
+    display: block;
+    color: #5b6b6e;
+    font-size: 20px;
+}
+
+#vacio-letras{
+    text-align: center;
+    display: block;
+    color: #5b6b6e;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+#resultado{
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    color: #72a5ae;
+}
+
+#button-C{
+    margin-left: 25px;
+    padding-left: 50px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-right: 50px;
+    background-color: #8e3f65;
+    border: 2px solid #72a5ae;
+}
+
+#button-C:active{
+    background-color: #72a5ae;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #3c8e9c;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}

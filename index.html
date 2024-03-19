@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Encriptador/Desencriptador</title>
+</head>
+<body>
+    <img id="logo" src="Imagenes/n6fRXoh7_400x400.jpg" alt="">
+    <div class="message">
+        <div class="derecha">
+            <!--<textarea name="textarea" rows="28" cols="100">Ingresa tu mensaje</textarea>-->
+            <div>
+                <ul class="ingresa-valor">
+                    <li>
+                        <input type="text" value="ingresa valor" id="cadena">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img src="Imagenes/bi_exclamation-circle-fill.png" alt="" id="imagen-info">
+                <label for="" id="letras-chicas">Solo se aceptan letras minúsculas</label>
+            </div>
+            <div class="buttons">
+                <button id="button-E" onclick="Encriptar()">Encriptar</button>
+                <button id="button-D" onclick="Desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div>
+            <ul class="resultado">
+                <li>
+                    <img src="Imagenes/Muñeco.png" alt="" class="muneco" id="muneco-java">
+                </li>
+                <li class="vacias">
+                    <label for="" id="resultado"></label>
+                    <label for="" id="vacio">Ningún mensaje fue encontrado</label>
+                    <br>
+                    <label for="" id="vacio-letras">Ingresa el texto que desees encriptar o desencriptar.</label>
+                    <button id="button-C" onclick="copiarElemento()">Copiar</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <label for="">Estudiante Daniel Salazar Alcaraz</label>
+        <br>
+        <label for="">Correo: 1903401c@umich.mx</label>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
